@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        {{ bootstrap.load_css() }}
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='assets/img/favicon.ico')}}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link
+            href="{{ url_for('static', filename='css/styles.css') }}"
+            rel="stylesheet"
+        />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Audrius Martinaitis</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ url_for('static', filename='assets/img/profile.jpg') }}" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">A Bit About Me</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#p_experience">Programming Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#volunteer">Volunteering</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li> <!-- Need to add a page-->
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Audrius
+                        <span class="text-primary">Martinaitis</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        +4591996345 · Denmark, Copenhagen · 
+                        <a href="mailto:amartinaitiz@gmail.com">amartinaitiz@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Experienced project and volunteer coordinator, in the process of learning the art of programing and development. 
+                        Able to build medium complexity websites using Flask, Explore and Visualise Data using Python Jupyter, work with OOP within Python
+                        to develop scripts and applications. Don't hesitate to check out my linked-in, GitHub or Facebook. 
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/audrius-martinaitis-41a151127/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/adiuka"><i class="fab fa-github" target="_blank" ></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/profile.php?id=100011221331246" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Programming Work Experience Section-->
+            <section class="resume-section" id="p_experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Programming Work Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Freelance & Student</h3>
+                            <div class="subheading mb-3">Home Office 😉</div>
+                            <p>
+                                Oops... No official work experience as of yet. My current experience in programming is making personal projects, simple website templates for friend projects and
+                                just trying to grasp and understand the art of clean code. Please see my personal projects at my GitHub.
+                                 
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://github.com/adiuka" target="_blank"><i class="fab fa-github"></i></a>
+                                
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2024 - Present</span></div>
+            </section>
+            <hr class="m-0" />
+            <!-- Other work Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">General Work Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Volunteer and Project Coordinator</h3>
+                            <div class="subheading mb-3">Mellemfolkeligt Samvirke - ActionAid Denmark - Copenhagen</div>
+                            <p>
+                                Project Coordinator for Volunteer led local initiatives for the organization in Denmark. Primary tasks were the day to day and general management 
+                                of a non-profit Hostel - Globalhagen, which was primarily staffed with volunteers from all over the world. EU funded projects towards youth development 
+                                and employability, and being in charge of 300 volunteers for Roskilde Festival. Managed internships for the Global Platform Denmark Team. 
+                            </p>
+                            <p>
+                                Check out the organization on their website and social medias at:
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://www.ms.dk/" target="_blank"><i class="fab fa-chrome"></i></a>
+                                <a class="social-icon" href="https://www.facebook.com/msactionaid" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2022 - February 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Student Assistant - Volunteer and Business Coordination</h3>
+                            <div class="subheading mb-3">Mellemfolkeligt Samvirke - ActionAid Denmark - Copenhagen</div>
+                            <p>
+                                a part-time student assistant for Mellemfolkeligt Samvirke, within the Social Entrepreneurship Department at the time. 
+                                My role was supporting one of our non-profit businesses and Social Enterprises - Globalhagen hostel with administration, payments, recruitment, internships.
+                            </p>
+                            <p>
+                                Check out the organization on their website and social medias at:
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://www.ms.dk/" target="_blank"><i class="fab fa-chrome"></i></a>
+                                <a class="social-icon" href="https://www.facebook.com/msactionaid" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2019 - June 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Social Media Intern</h3>
+                            <div class="subheading mb-3">Mellemfolkeligt Samvirke - ActionAid Denmark - Copenhagen</div>
+                            <p>
+                                I was an intern in charge of Social Media Marketing and Communications of all of the Social Enterprises within the Social Entrepreneurship team. 
+                                This includes Globalhagen Hostel, Cafe Mellemrummet and Globalhagen house.
+                            </p>
+                            <p>
+                                Check out the organization on their website and social medias at:
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://www.ms.dk/" target="_blank"><i class="fab fa-chrome"></i></a>
+                                <a class="social-icon" href="https://www.facebook.com/msactionaid" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2019 - June 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Volunteer Experience-->
+            <section class="resume-section" id="volunteer">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Volunteering experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Kitchen Helper</h3>
+                            <div class="subheading mb-3">Grace KBH - Blå Kors</div>
+                            <p>
+                                Helping the local deli feed and give the homeless a place to rest during weekdays. We also act as support in getting their documentation,
+                                starting out in Denmark, getting bank accounts and looking for work or housing. What I loved about this place was the amazing stories each
+                                and every person had. About their journey here, their life story, their dreams and aspirations. 
+                            </p>
+                            <p>
+                                Check out the organization on their website and social medias at:
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://blaakors.dk/vores-arbejde/vaeresteder/grace-i-koebenhavn" target="_blank"><i class="fab fa-chrome"></i></a>
+                                <a class="social-icon" href="https://www.facebook.com/graceKbh" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2024 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Volunteer Coordinator - Roskilde Festival</h3>
+                            <div class="subheading mb-3">Mellemfolkeligt Samvirke - Copenhagen</div>
+                            <p>
+                                Part of a team of coordinators who recruit and manage up to 300 volunteers for Roskilde Festival! We are in charge of the Volunteer Camping area, where we are 
+                                Service Hosts guiding and helping all the 10.000 volunteers who work at the festival and expect a quiet and clean place to stay. The project also has a social mission,
+                                we get abou 1500 DKK (200 eu) per volunteer, which we can use to support youth led initiatives around the world through Mellemfolkeligt Samvirke.
+                            </p>
+                            <p>
+                                Check out the organization on their website and social medias at:
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://www.ms.dk/roskilde-volunteer-camp-2025" target="_blank"><i class="fab fa-chrome"></i></a>
+                                <a class="social-icon" href="https://www.facebook.com/msactionaid" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Driver for Old People</h3>
+                            <div class="subheading mb-3">Cycling Without Age - Copenhagen</div>
+                            <p>
+                                Being a passenger bike driver for old people in a retiree home in Copenhagen. Research shows taht even if older people cannot walk, experiencing the wind on their face, 
+                                and feeling the fresh air outside improves thei lives in many ways. The organization started for this, to provide the previous generation, who is unable to transport themselves, 
+                                a way to experience the outdoors. I loved getting to talk to the participants, as they had so many amazing stories and experiences from their life in the city. This ahs been one of 
+                                the most amazing and valuable experiences in my life, and I can only recommend it to everyone.
+                            </p>
+                            <p>
+                                Check out the organization on their website and social medias at:
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://cyclingwithoutage.org/" target="_blank"><i class="fab fa-chrome"></i></a>
+                                <a class="social-icon" href="https://www.facebook.com/groups/821377311361644" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2021 - January 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bartender and Barista - Cafe Mellemrummet</h3>
+                            <div class="subheading mb-3">Mellemfolkeligt Samvirke - Copenhagen</div>
+                            <p>
+                                Helping the local non-profit cafe as a barista and bartender. Each item sold, be it coffee or beer goes towards supporting the never ending fight for 
+                                social equality among all. The cafe and volunteers who gather to make it work gather once a year to select a project that will be supported with about 
+                                300.000 DKK (40.000 eu) from the cafe's income. 
+                            </p>
+                            <p>
+                                Check out the organization on their website and social medias at:
+                            </p>
+                            <div class="social-icons">
+                                <a class="social-icon" href="https://www.ms.dk/en/mellemrummet" target="_blank"><i class="fab fa-chrome"></i></a>
+                                <a class="social-icon" href="https://www.facebook.com/mellemrummet" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> January 2019 - December 2022</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Formal Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Roskilde University</h3>
+                            <div class="subheading mb-3">Master of Social Science</div>
+                            <div>Social Entrepreneurship and Management</div>
+                            <p>
+                                The study of Social Entrepreneurship. Running non-profit businesses within a capitalist economy. The education is separated into 2 branches: </br>
+                                Business branch - that teaches applicants business and business management skills. </br>
+                                Social Science branch - theories around social and societal change. </br>
+                            </p>
+                            <p>
+                                Competences learned: Social Entrepreneurship, Market Analysis, Social Return on Investment and Social Accounting, Volunteer Management, Volunteer Recruiting, 
+                                Working with Different Stakeholders.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - June 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University College Absalon</h3>
+                            <div class="subheading mb-3">Leisure Management</div>
+                            <p>
+                                A diverse bachelors program in Leisure Business administration, encompasing Entrepreneurship, Marketing, Destination Management, Accounting, 
+                                Ecconomics, Coorporate Finance, Event Management, Project Management.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2016 - January 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Courses-->
+            <section class="resume-section" id="courses">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Courses and Certificates</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Udemy</h3>
+                            <div class="subheading mb-3">Python Pro Bootcamp</div>
+                            <div>Python Full Stack Developer</div>
+                            <p>
+                                Learned to build medium complexity websites using Flask, Explore and Visualise Data using Python Jupyter, work with OOP within Python to 
+                                develop scripts and applications. Don't hesitate to check out my linked-in, GitHub or Facebook.
+                            </p>
+                            <p>
+                                Competences learned: OOP, Data Exploration, Back-End Development, Flask-Applications + Jinja, SQL, PostgreSQL
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2024 - Current</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+
+                    </ul>
+                    <div class="subheading mb-3">Other Competences</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            EU Grant Management
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Project Management
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Creative Problem Solving
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Object Oriented Programming
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Volunteer Coordination
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>
+                        Apart from learning the art of clean code I mostly enjoy spending my time outdoors, with the people most closest to me - my Girlfriend, my Friends and Family. In the winter months I enjoy 
+                        hikes and as of recently - Ice Skating. In the Summer, well once again hiking, with a dash of kayaking, bouldering and swimming.
+                    </p>
+                    <p class="mb-0">
+                        When I am stuck inside, I enjoy watching great films and playing Videogames. I often keep track of which films are gaining grounds in the ratings so I can enjoy the next 
+                        thought provoking masterpiece. In my Videogames, I enjoy a challenge, which would come to no surprise that I enjoy FromSoftware Games. I also love reading, primarily more 
+                        classical literature. Lastly I love writting poetry when the inspiration takes me! You can find some of my poems on this very site.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Walked the classic Camino of Santiago 880 km, from St.Jien-Pied-de-Port to Finisterre in 28 days.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            First Sucessful Lean Quality Organization Label Application for Mellemfolkeligt Samvirke
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Cycled around Lithiuania, 1200 km
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Best in show Business Innovation presentation at University College Absalon
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Top 20 within the Nordic Race Spartan Run
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Contact Page -->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Write me a mail</h2>
+                    <p>
+                        Mail functionality is in work in progress
+                    </p>
+                    <p class="mb-0">
+                        Or call me at +4591996345
+                    </p>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    </body>
+</html>
