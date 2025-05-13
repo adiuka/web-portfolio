@@ -12,3 +12,5 @@ Next on the agenda and how it will be improved:
 4. implement email function, that can send an email of anyonme trying to contact me using WTForms
 
 5. Implement the language learning tool into the webpage, using once a database of most commonly used words
+
+![hippo](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3JwNDZxMHljdmtyNjd5b2VnZHpjc2M5MGV2dWV2Nm1vNHNmNTU2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/D00AzynHUQSPiZYuih/giphy.gif)
